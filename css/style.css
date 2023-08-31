@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserra;
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(../font/Lato-Bold.ttf);
+}
+body{
+    position: relative;
+}
+:root{
+    --maincolor:#F4511E;
+}
+.mybgcolor{
+    background-color: var(--maincolor)!important;
+}
+/* start nav */
+.mynav{
+    background-color: var(--maincolor)!important;
+    font-family: Montserra;
+    z-index: 2000;
+    padding-bottom: 0rem !important;
+    padding-top: 0rem !important;
+
+}
+.nav-link {
+    color: rgba(255, 255, 255,1)!important;
+    line-height: 3;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.linksparent{
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
+.navbar-nav .nav-link{
+    padding-left: 1.5rem !important;
+}
+.nav-link.active{
+    background-color: white!important;
+    color: var(--maincolor) !important;
+}
+/* end nav */
+/* start div1 */
+.div1{
+    font-family:Montserra ;
+
+}
+.div1 h1{
+    color: white !important;
+}
+@media screen and (max-width:577px) {
+    .formdiv{
+        width: 90% !important;
+    }
+    
+}
+@media screen and (min-width:390px) {
+    .formdiv{
+        width: 100% !important;
+    }
+    
+}
+
+/* end div1 */
+.fa-solid, .fas{
+   color: var(--maincolor)!important;
+}
+/*  start slider */
+#slider h2{
+    font-family: lato;
+}
+#slider p{
+    font-family: lato;
+    font-weight: 25px;
+    font-size: 15px;
+    line-height: 26px;
+    font-style: italic;
+    color: #303030;
+}
+.carousel-control-next,.carousel-control-prev{
+    opacity: 1 !important;
+}
+.carousel-control-next-icon ,.carousel-control-prev-icon{
+    color: var(--maincolor)!important;
+    background-image: none;
+    filter: none !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff !important;
+    border: 1px solid var(--maincolor);
+    opacity: 1 !important;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    background-color: var(--maincolor)!important;
+}
+/*  end slider */
+/* start pricing */
+.card-header {
+    background-color: var(--maincolor);
+    border-bottom:1px solid var(--maincolor);
+    color: white !important;
+}
+.mybtn{
+    background-color: var(--maincolor);
+    color: white;
+    border: 1px solid var(--maincolor);
+}
+.myborder{
+    border: 1px solid var(--maincolor);
+}
+#pricing h2{
+    font-family: lato;
+}
+#pricing p{
+    font-family: lato;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 26px;
+    /* font-style: italic; */
+    color: #303030;
+}
+/* end pricing */
+/* start contact */
+#contact h2{
+    font-family: lato;
+}
+/* end contact */
